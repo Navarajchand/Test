@@ -1,0 +1,40 @@
+.App {
+   text-align: center;
+   color: #fff;
+   background-color: #181818;
+   min-height: 100vh;
+   padding: 20px;
+}
+
+.song-list {
+   margin: 20px;
+   color: #fff;
+}
+
+.music-player {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   padding: 20px;
+   background: #282828;
+}
+
+.controls {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.progress-bar {
+   width: 80%;
+   height: 5px;
+   background-color: #404040;
+   border-radius: 5px;
+   margin: 0 10px;
+}
+
+.progress {
+   height: 100%;
+   background-color: #1db954;
+   border-radius: 5px;
+}
